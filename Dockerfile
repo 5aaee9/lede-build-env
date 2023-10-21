@@ -1,4 +1,4 @@
-FROM bitnami/minideb:bookworm
+FROM bitnami/minideb:bullseye
 
 RUN install_packages ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \
       bzip2 ccache cmake cpio curl device-tree-compiler fastjar flex gawk gettext gcc-multilib g++-multilib \
